@@ -1,5 +1,5 @@
 //= require froala_editor.min.js
 
 $(function () {
-  $('.field-unit--froala-field textarea').froalaEditor();
+  $('.field-unit--froala textarea').froalaEditor();
 });
