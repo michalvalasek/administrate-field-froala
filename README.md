@@ -21,15 +21,11 @@ $ bundle install
 Add to your `FooDashboard`:
 ```ruby
 ATTRIBUTE_TYPES = [
-  bars: Field::Froala,
+  description: Field::Froala,
 ]
 ```
 
 [Froala]: https://github.com/froala/wysiwyg-editor
 [Administrate]: https://github.com/thoughtbot/administrate
-
-## About Jemcode
-
-[<img src="https://www.jemco.de/logo.svg" width="400" alt="Jemcode">][hire]
 
 Administrate::Field::Froala is heavily inspired by (a.k.a. copied after) Administrate::Field::Ckeditor by [Jemcode Limited](https://www.jemco.de?utm_source=github).
