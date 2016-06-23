@@ -1,0 +1,35 @@
+# Administrate::Field::Froala
+
+[![Dependency Status](https://gemnasium.com/badges/github.com/michalvalasek/administrate-field-froala.svg)](https://gemnasium.com/github.com/michalvalasek/administrate-field-froala)
+
+A plugin for adding [Froala] editor support in [Administrate].
+
+## Usage
+
+Add to your `Gemfile`:
+
+```ruby
+gem "administrate-field-froala", "~> 0.1"
+```
+
+Run:
+
+```bash
+$ bundle install
+```
+
+Add to your `FooDashboard`:
+```ruby
+ATTRIBUTE_TYPES = [
+  bars: Field::Froala,
+]
+```
+
+[Froala]: https://github.com/froala/wysiwyg-editor
+[Administrate]: https://github.com/thoughtbot/administrate
+
+## About Jemcode
+
+[<img src="https://www.jemco.de/logo.svg" width="400" alt="Jemcode">][hire]
+
+Administrate::Field::Froala is heavily inspired by (a.k.a. copied after) Administrate::Field::Ckeditor by [Jemcode Limited](https://www.jemco.de?utm_source=github).
