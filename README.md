@@ -25,24 +25,6 @@ ATTRIBUTE_TYPES = [
 ]
 ```
 
-In your `application.js` require and initialize the Froala editor (and plugins if needed):
-```javascript
-//= require froala_editor.min.js
-
-$(function () {
-  // initialize Froala editor on all Froala fields (Field::Froala)
-  $('.field-unit--froala textarea').froalaEditor();
-});
-```
-
-Similarly require the stylesheets for Froala and it's plugins in your `application.css`:
-```css
-/*
- *= require froala_editor.min.css
- *= require froala_style.min.css
- */
-```
-
 See [wysiwyg-rails](https://github.com/froala/wysiwyg-rails#include-in-your-assets) documentation for list of all available Froala plugins.
 
 
